@@ -1,0 +1,223 @@
+repo_name: brgsk/wemake-django-template
+report_id: 70977661d0995a751423369d1a1ae575
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-24T16:03:16+00:00'
+requested_by: dependabot[bot]
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template
+  detection_source: Repo Metadata
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/{{cookiecutter.project_name}}/docker-compose.yml
+  detection_source: "{{cookiecutter.project_name}}/docker-compose.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-07-18 13:58:45.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  version: 1.29.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/poetry.lock
+  detection_source: "{{cookiecutter.project_name}}/docker-compose.yml"
+  last_updated_by: Nikita Sobolev
+  last_updated_on: 2020-06-29 11:34:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/.github/workflows/codeql.yml
+  detection_source: ".github/workflows/codeql.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-26 07:37:14.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/{{cookiecutter.project_name}}/pyproject.toml
+  detection_source: "{{cookiecutter.project_name}}/pyproject.toml"
+  last_updated_by: sobolevn
+  last_updated_on: 2018-11-16 18:00:07.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/{{cookiecutter.project_name}}/docker-compose.yml
+  detection_source: "{{cookiecutter.project_name}}/docker-compose.yml"
+  last_updated_by: sobolevn
+  last_updated_on: 2017-09-17 12:17:25.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/{{cookiecutter.project_name}}/docker-compose.yml
+  detection_source: "{{cookiecutter.project_name}}/docker-compose.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-07-18 13:58:45.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template
+  detection_source: Repo Metadata
+- name: cookiecutter
+  description: A command-line utility that creates projects from project templates,
+    e.g
+  package_url: https://pypi.org/project/cookiecutter
+  version: 2.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20075/default_7ab6b1c940c208874d4a483f0d832c7b45b3d24e.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-31 06:21:27.000000000 Z
+- name: django-health-check
+  description: Run checks on services like databases
+  package_url: https://pypi.org/project/django-health-check
+  version: 3.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/{{cookiecutter.project_name}}/poetry.lock
+  detection_source: "{{cookiecutter.project_name}}/pyproject.toml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-09-28 05:34:55.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/{{cookiecutter.project_name}}/poetry.lock
+  detection_source: "{{cookiecutter.project_name}}/pyproject.toml"
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-11-12 10:34:15.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.5
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/{{cookiecutter.project_name}}/poetry.lock
+  detection_source: "{{cookiecutter.project_name}}/pyproject.toml"
+  last_updated_by: Dmytro Litvinov
+  last_updated_on: 2021-10-02 09:32:40.000000000 Z
+- name: python-decouple
+  description: Strict separation of settings from code
+  package_url: https://pypi.org/project/python-decouple
+  version: '3.6'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20545/default_7b61da87043cab6a451d00283941da078ee5c9d9.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/{{cookiecutter.project_name}}/poetry.lock
+  detection_source: "{{cookiecutter.project_name}}/pyproject.toml"
+  last_updated_by: Nikita Sobolev
+  last_updated_on: 2022-10-05 08:46:35.000000000 Z
+- name: structlog
+  description: Structured Logging for Python
+  package_url: https://pypi.org/project/structlog
+  version: 22.1.0
+  license: MIT,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20339/default_5453c811e1808a44a487696489b22724cb9a7610.png
+  detection_source_url: https://github.com/brgsk/wemake-django-template/blob/master/{{cookiecutter.project_name}}/poetry.lock
+  detection_source: "{{cookiecutter.project_name}}/pyproject.toml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-21 07:30:59.000000000 Z
